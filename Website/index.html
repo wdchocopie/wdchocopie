@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tran Hoang Long - Developer & Hardware Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-canvas"></canvas>
+    
+    <!-- Navigation -->
+    <nav class="terminal-nav">
+        <div class="nav-container">
+            <div class="terminal-prompt">
+                <span class="user">root@portfolio</span><span class="separator">:</span><span class="path">~</span><span class="prompt">$</span>
+            </div>
+            <div class="nav-commands">
+                <button class="nav-cmd" data-target="hero">./about.sh</button>
+                <button class="nav-cmd" data-target="about">./skills.sh</button>
+                <button class="nav-cmd" data-target="projects">./projects.sh</button>
+                <button class="nav-cmd" data-target="contact">./contact.sh</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn-close"></span>
+                    <span class="btn-minimize"></span>
+                    <span class="btn-maximize"></span>
+                </div>
+                <div class="terminal-title">root@portfolio: ~</div>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">whoami</span>
+                </div>
+                <div class="terminal-output">
+                    <div class="typewriter" data-text="Tran Hoang Long"></div>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">cat role.txt</span>
+                </div>
+                <div class="terminal-output">
+                    <div class="typewriter" data-text="Developer & Hardware Enthusiast" data-delay="2000"></div>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command">date -d "birth"</span>
+                </div>
+                <div class="terminal-output">
+                    <div class="typewriter" data-text="Jan 27, 2005 | Hanoi, Vietnam" data-delay="4000"></div>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">$</span>
+                    <span class="command cursor-blink">_</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>scroll down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch" data-text="ABOUT_ME.EXE">[ABOUT_ME.EXE]</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3 class="card-title">Personal Information</h3>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Name:</span>
+                                <span class="info-value">Tran Hoang Long</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Birth Date:</span>
+                                <span class="info-value">Jan 27, 2005</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Gender:</span>
+                                <span class="info-value">Male</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Location:</span>
+                                <span class="info-value">Hanoi, Vietnam</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Address:</span>
+                                <span class="info-value">Bat Khoi Street, Long Bien District</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-container">
+                    <h3 class="card-title">Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Arduino Development">
+                            <span class="skill-name">Arduino Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Python Programming">
+                            <span class="skill-name">Python Programming</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Android App Development">
+                            <span class="skill-name">Android App Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="MIT App Inventor">
+                            <span class="skill-name">MIT App Inventor</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="System Architecture Design">
+                            <span class="skill-name">System Architecture Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Code Review & Optimization">
+                            <span class="skill-name">Code Review & Optimization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Penetration Testing">
+                            <span class="skill-name">Penetration Testing</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="Hardware Integration">
+                            <span class="skill-name">Hardware Integration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="IoT Development">
+                            <span class="skill-name">IoT Development</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="89%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch" data-text="PROJECTS.LOG">[PROJECTS.LOG]</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-project="0">
+                    <div class="project-header">
+                        <h3 class="project-title">Smart Water Bottle System</h3>
+                        <div class="project-status">
+                            <span class="status-dot"></span>
+                            <span>Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Client:</span>
+                            <span class="meta-value">Vinschool</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Team Size:</span>
+                            <span class="meta-value">3 people</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Role:</span>
+                            <span class="meta-value">Developer</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Smart water bottle that checks water purity, temperature, and water level with Android application that stores data from the water bottle</p>
+                    </div>
+                    <div class="project-tech">
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">MIT App Inventor</span>
+                            <span class="tech-tag">Arduino IDE</span>
+                            <span class="tech-tag">Arduino Uno (ATmega 328)</span>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Key Responsibilities:</h4>
+                        <ul class="responsibility-list">
+                            <li>Analyzed trends, checked for availability and affordability of solutions</li>
+                            <li>Developed products, primarily focusing on code and software functionality</li>
+                            <li>Optimized code and served as a code reviewer</li>
+                            <li>Performed penetration testing and identified bugs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="1">
+                    <div class="project-header">
+                        <h3 class="project-title">Automatic Sanitizer & Health Monitor</h3>
+                        <div class="project-status">
+                            <span class="status-dot"></span>
+                            <span>Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Client:</span>
+                            <span class="meta-value">Vinschool</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Team Size:</span>
+                            <span class="meta-value">2 people</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Role:</span>
+                            <span class="meta-value">Developer</span>
+                        </div>
+                    </div>
+                    <div class="project-description">
+                        <p>Automatic sanitizer with human temperature check, face-mask detector, and simulate quarantine process</p>
+                    </div>
+                    <div class="project-tech">
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Arduino IDE</span>
+                            <span class="tech-tag">Arduino Nano (ATmega 328)</span>
+                            <span class="tech-tag">Python IDE</span>
+                            <span class="tech-tag">Raspberry Pi 4</span>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h4>Key Responsibilities:</h4>
+                        <ul class="responsibility-list">
+                            <li>Analyzed and designed system architecture</li>
+                            <li>Developed core functionalities</li>
+                            <li>Modeled and implemented simulation scenarios for quarantine processes</li>
+                            <li>Reviewed and optimized code</li>
+                            <li>Fixed bugs to ensure system reliability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title glitch" data-text="CONTACT.SH">[CONTACT.SH]</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-terminal">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <div class="terminal-title">contact@portfolio</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span class="contact-command">$ echo $EMAIL</span>
+                                    <div class="contact-value" data-copy="hoanglong2712005@gmail.com">
+                                        <span>hoanglong2712005@gmail.com</span>
+                                        <button class="copy-btn" title="Copy to clipboard">📋</button>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-command">$ echo $PHONE</span>
+                                    <div class="contact-value" data-copy="(+84) 824 122 077">
+                                        <span>(+84) 824 122 077</span>
+                                        <button class="copy-btn" title="Copy to clipboard">📋</button>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-command">$ echo $LINKEDIN</span>
+                                    <div class="contact-value">
+                                        <a href="https://www.linkedin.com/in/hoang-long-tran-b48459267/" target="_blank" rel="noopener noreferrer">
+                                            linkedin.com/in/hoang-long-tran-b48459267/
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-command">$ cat location.txt</span>
+                                    <div class="contact-value">
+                                        <span>Bat Khoi Street, Long Bien District<br>Hanoi, Vietnam</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-message">
+                    <div class="message-box">
+                        <h3>Let's Connect</h3>
+                        <p>Ready to build something amazing together? I'm always interested in discussing new opportunities, innovative projects, and collaborations in hardware development and IoT solutions.</p>
+                        <div class="connection-status">
+                            <div class="status-indicator">
+                                <span class="status-dot active"></span>
+                                <span>Available for projects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>

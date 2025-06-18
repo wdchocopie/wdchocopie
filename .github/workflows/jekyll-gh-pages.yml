@@ -24,8 +24,8 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./website
-          destination: ./website/_site
+          source: ./Website
+          destination: ./Website/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

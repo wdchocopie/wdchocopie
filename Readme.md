@@ -1,6 +1,6 @@
 # 👨‍💻 Tran Hoang Long
 
-> *Hacker-themed developer & IoT enthusiast | Building smart systems, automations, and secure solutions*
+> *🎓 Information Assurance Student | Currently focused on cybersecurity | 🛡️ "Make software to change the world"*
 
 ---
 

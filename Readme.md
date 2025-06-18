@@ -1,74 +1,58 @@
-# 👨‍💻 Tran Hoang Long
+# 👋 Hi, I'm Tran Hoang Long
 
-> *🎓 Information Assurance Student | Currently focused on cybersecurity | 🛡️ "Make software to change the world"*
-
----
-
-## 🕶️ About Me
-
-- **Name:** Tran Hoang Long  
-- **Location:** Bat Khoi Street, Long Bien District, Hanoi, Vietnam  
-- **Email:** hoanglong2712005@gmail.com  
-- **Phone:** +84 824 122 077  
-- **LinkedIn:** [linkedin.com/in/hoanglong2712005](https://www.linkedin.com/in/hoanglong2712005)  
-- **Date of Birth:** January 27, 2005  
-- **Theme:** Dark, hacker-inspired, animated portfolio
+> **Information Assurance Student | Cybersecurity & IoT Enthusiast | Software Developer**
 
 ---
 
-## 🛠️ Skills
+## 🌐 Languages
 
-- **Embedded Systems:** Arduino (Uno, Nano), hardware integration, IoT prototyping  
-- **Programming:** Python, C/C++, MIT App Inventor  
-- **Mobile Development:** Android app design (MIT App Inventor)  
-- **System Architecture:** Design, code review, optimization  
-- **Security:** Penetration testing, bug identification  
-- **Automation:** Smart devices, health monitoring, sensor integration
+- **English (Intermediate)**  
+- **Japanese (Elementary)**  
+- **German (Elementary)**  
+- **Vietnamese (Native)**  
 
 ---
 
-## 🚀 Projects
+## 🖥️ Office IT Skills
 
-### 1. Smart Water Bottle System
-- **Team:** 3 (Vinschool collaboration)
-- **Role:** Developer
-- **Tech:** Arduino Uno (ATmega328), MIT App Inventor, Android, sensors
-- **Highlights:**
-  - Built a smart bottle to monitor water purity, temperature, and level
-  - Developed Android app for real-time data and trend analysis
-  - Led code optimization, peer review, and penetration testing
-
-### 2. Automatic Sanitizer & Health Monitor
-- **Team:** 2 (Vinschool collaboration)
-- **Role:** Developer
-- **Tech:** Arduino Nano, Python, Raspberry Pi 4
-- **Highlights:**
-  - Designed automated sanitizer with temperature and mask detection
-  - Simulated quarantine process and health monitoring
-  - Responsible for system architecture, core logic, and reliability
+- **Microsoft Office:** Word, Excel, PowerPoint, Outlook  
+- **Google Workspace:** Docs, Sheets, Slides, Gmail, Drive  
 
 ---
 
-## 📚 Education
+## 💻 Coding Languages
 
-- **High School:** Vinschool, Hanoi, Vietnam
-
----
-
-## 💡 Interests
-
-- IoT, automation, cybersecurity, open-source hardware, developer communities
+- **Python**  
+- **C**  
+- **Java**  
+- **PHP**  
+- **SQL**
 
 ---
 
-## 📫 Contact
+## 👨‍💻 Developer Experience
 
-- **Email:** hoanglong2712005@gmail.com  
-- **Phone:** +84 824 122 077  
-- **LinkedIn:** [linkedin.com/in/hoanglong2712005](https://www.linkedin.com/in/hoanglong2712005)
+- **Website Development**  
+- **Android Application Development**  
+- **Version Control:** Git  
 
 ---
 
-> *“Building smarter, safer, and more connected systems—one project at a time.”*
+## 🚀 Deployment Experience
+
+- **Server Deployment**  
+- **Game Deployment**  
+- **VPN Setup**  
+- **Website Deployment**  
+- **Cloud Deployment**
+- **Android custom kernel**
+
+---
+
+## 🏆 Technical Experience – CTF (Capture The Flag)
+
+- **Binary Exploitation**  
+- **Website Exploitation**  
+- **Forensics**  
 
 ---

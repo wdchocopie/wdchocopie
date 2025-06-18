@@ -53,6 +53,6 @@
 
 - **Binary Exploitation**  
 - **Website Exploitation**  
-- **Forensics**  
+- **Forensics and Steganography**  
 
 ---
